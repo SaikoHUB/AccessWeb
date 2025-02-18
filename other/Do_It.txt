@@ -1,0 +1,64 @@
+# Documentation des Tests
+
+## Tests d'Accessibilité
+
+### NVDA (Windows)
+- [x] Navigation par tabulation fonctionnelle
+- [x] Lecture correcte des alternatives textuelles
+- [x] Formulaire accessible
+- [x] Structure des titres cohérente
+
+### VoiceOver (macOS)
+- [x] Navigation fluide
+- [x] Lecture des sous-titres vidéo
+- [x] Annonce des changements d'état
+
+## Tests de Compatibilité
+
+### Firefox (version 120+)
+- [x] Rendu conforme
+- [x] Navigation fluide
+- [x] Formulaire fonctionnel
+- [x] Vidéo et sous-titres opérationnels
+
+### Chrome (version 120+)
+- [x] Rendu conforme
+- [x] Performance optimale
+- [x] Compatibilité JavaScript
+
+### Safari (version 16+)
+- [x] Rendu conforme
+- [x] Animations fluides
+- [x] Formulaire fonctionnel
+
+### Mobile
+- [x] Responsive design
+- [x] Touch targets adaptés
+- [x] Lisibilité optimale
+
+## Critères Opquast validés
+
+1. Navigation
+   - [x] Menu de navigation présent
+   - [x] Fil d'Ariane clair
+   - [x] Retour en haut de page
+
+2. Images
+   - [x] Alternatives textuelles
+   - [x] Optimisation du poids
+   - [x] Format adaptatif
+
+3. Code
+   - [x] Validation W3C
+   - [x] Structure sémantique
+   - [x] Performance optimisée
+
+4. Accessibilité
+   - [x] Contraste suffisant
+   - [x] Navigation clavier
+   - [x] ARIA implémenté
+
+5. Performance
+   - [x] Temps de chargement < 3s
+   - [x] Poids total < 500 Ko
+   - [x] Cache configuré 

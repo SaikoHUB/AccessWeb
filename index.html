@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trouvez votre alternance idéale en France. Accompagnement personnalisé, réseau d'entreprises partenaires et formations qualifiantes. Contactez-nous pour réaliser votre projet professionnel.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://votre-site.fr">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+    
+    <title>AlternanceGuide - Votre parcours vers l'alternance</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Préchargement des ressources critiques -->
+    <link rel="preload" href="fonts/main-font.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- Données structurées -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "AlternanceGuide",
+        "url": "https://votre-site.fr",
+        "description": "Service d'accompagnement en alternance",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+33-1-23-45-67-89",
+            "contactType": "customer service"
+        }
+    }
+    </script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link" tabindex="1">Aller au contenu principal</a>
+
+    <header role="banner">
+        <nav role="navigation" aria-label="Navigation principale">
+            <ul>
+                <li><a href="#valeurs" tabindex="2" aria-label="Section nos valeurs">Nos valeurs</a></li>
+                <li><a href="#video" tabindex="3" aria-label="Section présentation vidéo">Présentation</a></li>
+                <li><a href="#comparatif" tabindex="4" aria-label="Section types d'alternance">Types d'alternance</a></li>
+                <li><a href="#contact" tabindex="5" aria-label="Section formulaire de contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main" id="main-content">
+        <section id="valeurs" aria-labelledby="valeurs-titre">
+            <h1 id="valeurs-titre">Votre avenir en alternance</h1>
+            <div class="valeurs-container">
+                <div class="valeur" tabindex="6">
+                    <svg aria-label="Accompagnement personnalisé" role="img" width="50" height="50">
+                        <!-- Contenu SVG pour accompagnement -->
+                    </svg>
+                    <h2>Accompagnement personnalisé</h2>
+                    <p>Un suivi sur mesure pour votre recherche d'alternance</p>
+                </div>
+                <div class="valeur" tabindex="7">
+                    <svg aria-label="Réseau d'entreprises" role="img" width="50" height="50">
+                        <!-- Contenu SVG pour réseau -->
+                    </svg>
+                    <h2>Réseau d'entreprises</h2>
+                    <p>Des partenariats solides avec des entreprises de confiance</p>
+                </div>
+                <div class="valeur" tabindex="8">
+                    <svg aria-label="Formation qualifiante" role="img" width="50" height="50">
+                        <!-- Contenu SVG pour formation -->
+                    </svg>
+                    <h2>Formation qualifiante</h2>
+                    <p>Des parcours reconnus pour votre développement professionnel</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="video" aria-labelledby="video-titre">
+            <h2 id="video-titre">Découvrez l'alternance</h2>
+            <div class="video-container">
+                <video controls tabindex="9">
+                    <source src="/vid/Alternance.mp4" type="video/mp4">
+                    <track 
+                        kind="captions" 
+                        src="/lang/sous-titres.vtt" 
+                        srclang="fr" 
+                        label="Français" 
+                        default>
+                    <track 
+                        kind="subtitles" 
+                        src="/lang/subtitles-en.vtt" 
+                        srclang="en" 
+                        label="English">
+                    <p>Votre navigateur ne prend pas en charge la vidéo HTML5.</p>
+                </video>
+                <div class="video-description">
+                    <p>Cette vidéo présente les avantages de l'alternance et le fonctionnement de notre accompagnement. Des sous-titres sont disponibles en français et en anglais.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparatif" aria-labelledby="comparatif-titre">
+            <h2 id="comparatif-titre">Types de contrats en alternance</h2>
+            <table>
+                <caption>Comparaison des différents types d'alternance</caption>
+                <thead>
+                    <tr>
+                        <th scope="col" tabindex="10">Caractéristiques</th>
+                        <th scope="col" tabindex="11">Contrat d'apprentissage</th>
+                        <th scope="col" tabindex="12">Contrat de professionnalisation</th>
+                        <th scope="col" tabindex="13">Stage alterné</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Âge</th>
+                        <td>16-29 ans</td>
+                        <td>16-25 ans ou demandeur d'emploi</td>
+                        <td>Pas de limite d'âge</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Durée</th>
+                        <td>6 mois à 3 ans</td>
+                        <td>6 à 12 mois (jusqu'à 24 mois)</td>
+                        <td>Variable selon formation</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">* Les conditions peuvent varier selon l'entreprise et la formation</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-titre">
+            <h2 id="contact-titre">Contactez-nous</h2>
+            <form action="/submit" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required aria-required="true" tabindex="14" aria-label="Saisissez votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required aria-required="true" tabindex="15" aria-label="Saisissez votre adresse email">
+                </div>
+                <div class="form-group">
+                    <label for="formation">Formation souhaitée</label>
+                    <input type="text" id="formation" name="formation" required aria-required="true" tabindex="16" aria-label="Saisissez la formation souhaitée">
+                </div>
+                <div class="form-group">
+                    <label for="cv">CV (PDF uniquement)</label>
+                    <input 
+                        type="file" 
+                        id="cv" 
+                        name="cv" 
+                        accept=".pdf" 
+                        required 
+                        aria-required="true" 
+                        tabindex="17"
+                        aria-label="Déposez votre CV au format PDF"
+                        class="file-input">
+                    <div class="file-info" aria-live="polite"></div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required aria-required="true" tabindex="18" aria-label="Saisissez votre message"></textarea>
+                </div>
+                <button type="submit" tabindex="19" aria-label="Envoyer le formulaire de contact">Envoyer ma demande</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="mentions-legales">
+                <h2>Mentions légales</h2>
+                <p>© 2024 AlternanceGuide - Tous droits réservés</p>
+            </div>
+            <nav aria-label="Liens utiles">
+                <h2>Liens utiles</h2>
+                <ul>
+                    <li><a href="#privacy" tabindex="20">Politique de confidentialité</a></li>
+                    <li><a href="#terms" tabindex="21">Conditions d'utilisation</a></li>
+                    <li><a href="#accessibility" tabindex="22">Accessibilité</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <address>
+                    <p>Email: contact@alternanceguide.fr</p>
+                    <p>Tél: 01 23 45 67 89</p>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/script.js" defer></script>
+</body>
+</html> 
